@@ -3,7 +3,7 @@
     "short_name": "amor",
     "theme_color": "#ff0000",
     "background_color": "#ff69b4",
-    "display": "standalone",
+    "display": "fullscreen",
     "start_url": "/",
     "icons": [
         {
