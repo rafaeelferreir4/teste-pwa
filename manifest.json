@@ -4,7 +4,7 @@
     "theme_color": "#ff0000",
     "background_color": "#ff69b4",
     "display": "fullscreen",
-    "start_url": "/teste-pwa",
+    "start_url": "/teste-pwa/index.html",
     "icons": [
         {
         "src": "images.jpeg",
