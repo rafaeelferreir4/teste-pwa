@@ -9,7 +9,7 @@
         {
         "src": "images.jpeg",
         "sizes": "72x72",
-        "type": "images/jpeg"
+        "type": "image/jpeg"
         }
     ]
 }
