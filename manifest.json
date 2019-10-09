@@ -1,0 +1,15 @@
+{
+    "name": "teste da momolada",
+    "short_name": "amor",
+    "theme_color": "#ff0000",
+    "background_color": "#ff69b4",
+    "display": "standalone",
+    "start_url": "/",
+    "icons": [
+        {
+        "src": "images.jpeg",
+        "sizes": "72x72",
+        "type": "image/png"
+        }
+    ]
+}
