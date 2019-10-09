@@ -4,12 +4,12 @@
     "theme_color": "#ff0000",
     "background_color": "#ff69b4",
     "display": "fullscreen",
-    "start_url": "/teste-pwa/index.html",
+    "start_url": "/teste-pwa/",
     "icons": [
         {
-        "src": "images.jpeg",
+        "src": "images.png",
         "sizes": "72x72",
-        "type": "image/jpeg"
+        "type": "image/png"
         }
     ]
 }
