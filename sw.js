@@ -10,8 +10,7 @@ self.addEventListener('install', function (event) {
         ])
     })
     )
-}
-)
+})
 
 var CACHE_NAME = 'static-v1';
 self.addEventListener('activate', function activator(event) {
