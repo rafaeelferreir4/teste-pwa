@@ -7,12 +7,27 @@
     <title>Document</title>
     <link rel="manifest" href="manifest.json">
     <style>
+    body {
+        align-items: center
+    }
     span {
         font-size: 3pt;
     }
     h2 {
         font-size: 120pt;
         transition: 10ms;
+    }
+    button {
+        padding: 15px;
+        color: white;
+        background-color: orange;
+        border: solid gray 1px;
+    }
+    button:hover {
+        padding-left: 18px;
+        padding-right: 18px;
+        background-color: rgba(255, 166, 0, 0.527);
+        transition: 150ms;
     }
     </style>
 </head>
@@ -30,6 +45,12 @@
             let a = parseInt(Math.random()*2);
             a == 1 ? span.textContent = 'Não' : span.textContent = 'Sim';
         });
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('/sw.js')
+            .then(() => { console.log('service worker registered'); })
+            .catch (() => { console.warn('service worker failed'); });    
+        }
     </script>
+    <script src="/sw.js"></script>
 </body>
 </html>
