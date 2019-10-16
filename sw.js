@@ -5,7 +5,7 @@ self.addEventListener('install', function (event) {
         return cache.addAll([
             '/',
             '/index.html',
-            '/manifest.js',
+            '/manifest.json',
             '/image2.jpg'
         ]);
     })
