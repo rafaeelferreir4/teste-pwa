@@ -7,11 +7,11 @@ self.addEventListener('install', function (event) {
             '/index.html',
             '/manifest.json',
             '/image2.jpg'
-        ]);
+        ])
     })
-    );
+    )
 }
-);
+)
 
 var CACHE_NAME = 'static-v1';
 self.addEventListener('activate', function activator(event) {
@@ -20,6 +20,6 @@ self.addEventListener('activate', function activator(event) {
             return key.indexOf(CACHE_NAME) !== 0;
         }).map(function (key) {
             return caches.delete(key);
-        }));
-    }));
-});
+        }))
+    }))
+})
